@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    
+    <h3>Registration Form</h3>
+    <form action="/action.php">
+        Name: <input type="text" placeholder="Name"><br><br>
+        username: <input type="text" placeholder="your username"><br><br>
+        password:<input type="password" required><br><br>
+
+        gender:<br>
+        <label for="101">
+        <input type="radio" value="male" name="gen" id="101">male</label><br>
+        <label for="102">
+        <input type="radio" value="female" name="gen" id="102">female</label><br> 
+<br>
+        SELECT YOUR SUBJECTS:<br>
+        <label for="maths">
+            <input type="checkbox" value="maths" name="sub" id="403">maths
+        </label>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="sub" id="403">physics
+        </label>
+        <label for="IT">
+            <input type="checkbox" value="IT" name="sub" id="404">IT
+        </label>
+        <label for="chemistry">
+            <input type="checkbox" value="chem" name="sub" id="403">chemistry
+        </label>
+        <label for="biology">
+            <input type="checkbox" value="biology" name="sub" id="403">biology
+        </label><br><br>
+        Select Your City: <br>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Banglore">Banglore</option>
+        </select><br><hr>
+        FEEDBACK <br><textarea name="feedback" id="100" placeholder="give your feedback" rows="5"
+        ></textarea><br>
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>

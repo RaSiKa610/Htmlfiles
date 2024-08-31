@@ -1,0 +1,15 @@
+#box1 {
+    height: 10000px;
+    background-color: rgb(233, 229, 233);
+    font-size: 75px;
+    font-family: garamond,serif;
+    color: brown;
+    text-align: center;
+    
+}
+
+#box2{
+     font-size: 40 px;
+     text-align: left;
+     color:black;
+}
